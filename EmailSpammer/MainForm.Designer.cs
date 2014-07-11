@@ -65,7 +65,7 @@
             this.fromEmail.Name = "fromEmail";
             this.fromEmail.Size = new System.Drawing.Size(179, 20);
             this.fromEmail.TabIndex = 1;
-            this.fromEmail.Text = "nercury@gmail.com";
+            this.fromEmail.Text = "sendermail@gmail.com";
             // 
             // label2
             // 
@@ -110,7 +110,6 @@
             this.txtBody.TabIndex = 7;
             this.txtBody.Text = "<html>\r\n<body>\r\n<p>\r\n<b>Hello</b>,\r\n</p>\r\n<p>\r\nBlah blah, the <i>code</i>: {code}" +
     ".\r\n</p>\r\n</body>\r\n</html>";
-            this.txtBody.TextChanged += new System.EventHandler(this.txtBody_TextChanged);
             // 
             // label3
             // 
@@ -128,8 +127,7 @@
             this.txtList.Name = "txtList";
             this.txtList.Size = new System.Drawing.Size(316, 295);
             this.txtList.TabIndex = 8;
-            this.txtList.Text = "nercury@gmail.com;85456\r\nnercury@gmail.com;8888";
-            this.txtList.TextChanged += new System.EventHandler(this.txtList_TextChanged);
+            this.txtList.Text = "victim1@gmail.com;85456\r\nvictim2@gmail.com;8888";
             // 
             // label4
             // 

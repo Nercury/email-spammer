@@ -103,16 +103,6 @@ namespace EmailSpammer
             progressBar1.Value = progressBar1.Maximum;
         }
 
-        private void txtBody_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtList_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonBrowse_Click(object sender, EventArgs e)
         {
             if (openFile.ShowDialog() != System.Windows.Forms.DialogResult.Cancel)
